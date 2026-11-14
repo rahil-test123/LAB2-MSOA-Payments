@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node scripts/start.mjs",
+    "backend": "node scripts/start.mjs --backend-only",
+    "test": "node tests/integration.mjs",
+    "test:browser": "node tests/browser.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -27,6 +31,11 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^17.13.0",
+    "playwright": "^1.64.1",
+    "prettier": "^3.9.10",
     "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   }
 }

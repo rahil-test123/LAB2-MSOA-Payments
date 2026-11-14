@@ -1,5 +1,11 @@
 # TP — Architecture orientée microservices : E-commerce
 
+Ce dépôt contient le projet du groupe et la configuration individuelle de Rahil Msouhli pour **Payments**. Le frontend envoie les requêtes de paiement au service REST sur le port `8085`. Les cinq autres services sont configurés en mode `mock` côté React.
+
+- [Partie individuelle Payments et procédure de test](backend/services/payments/)
+- [Configuration React](src/config/backend.js)
+- [Guide de lancement du projet](README_LIVRAISON.md)
+
 ## 1. Objectif
 
 Vous disposez d'une application e-commerce développée en React. Son interface est fonctionnelle et utilise initialement des services simulés (*mock*).
@@ -10,16 +16,14 @@ Votre mission consiste à développer des microservices REST indépendants, puis
 
 ## 2. Installation
 
-Prérequis : Node.js et npm.
+Prérequis : Node.js 24 ou ultérieur et npm. Depuis la racine du dépôt, lancez le frontend et les API du TP.
 
 ```bash
-git clone https://github.com/ZOUHEIRBN/MSOA-E-com-Demo.git
-cd MSOA-E-com-Demo
-npm install
-npm run dev
+npm ci
+npm start
 ```
 
-Ouvrez l'adresse affichée par Vite (généralement `http://localhost:5173`).
+Ouvrez [la boutique React](http://127.0.0.1:5173).
 
 Compte de démonstration en mode mock :
 

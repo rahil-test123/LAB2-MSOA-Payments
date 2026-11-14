@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+backend/data/
+backend/*-data/
+preuves/
+.e2e-data/
+.env

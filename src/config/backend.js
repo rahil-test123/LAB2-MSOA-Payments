@@ -4,7 +4,7 @@ const BACKEND_MODE = {
   CATALOG: "mock",
   INVENTORY: "mock",
   ORDERS: "mock",
-  PAYMENTS: "mock",
+  PAYMENTS: "rest",
   SHIPPING: "mock",
 };
 
@@ -13,7 +13,7 @@ const API_URLS = {
   CATALOG: "http://localhost:8082",
   INVENTORY: "http://localhost:8083",
   ORDERS: "http://localhost:8084",
-  PAYMENTS: "http://localhost:8085",
+  PAYMENTS: "http://127.0.0.1:8085",
   SHIPPING: "http://localhost:8086",
 };
 
